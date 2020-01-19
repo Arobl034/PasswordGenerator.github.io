@@ -17,9 +17,12 @@ For companies that handle large amounts of sensitive data, weak passwords can po
 
 
 Credits:
+
 Traversy Media
+
 
 Images:
 
 image/pwconsole.png
+
 image/pwcopied.png
