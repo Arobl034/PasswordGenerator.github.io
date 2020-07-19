@@ -30,6 +30,9 @@ If at least one checkbox is selected, another function will be called. This func
 
 Finally, it displays the new password on the page and it gives the user the option to copy it to the clipboard.
 
+### User Interface
+![Screen Shot 2020-07-19 at 5 16 30 PM](https://user-images.githubusercontent.com/58242373/87885406-ba628780-c9e3-11ea-9f7f-23d378b5fdfc.jpg)
+
 ### Published:
 <https://arobl034.github.io/PasswordGenerator.github.io/>
 
