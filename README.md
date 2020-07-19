@@ -1,28 +1,33 @@
-Password Generator
+# Password Generator :closed_lock_with_key:
 
-For companies that handle large amounts of sensitive data, weak passwords can pose a real security threat. An application that can generate strong passwords quickly and effortlessly saves employees time and ensures secure access to data.
+### Purpose of the project
 
-* In a file called `index.html`, create a form with the following elements:
+Its main purpose is to demonstrate some javascript skills learned during class lectures.
 
-1. Create a random password generator interface
+### Description
 
-2. Select length of password
+This web application uses javascript to generate a random password containing the following:
 
-3. A button to generate password in display box
+- Special Characters
+- Uppercase and lowercase letters
+- Numbers
 
-4. Clipboard password to display in console.
+The password is generated automatically after the user selects their desired criteria for the length and strength of the password. The new password will display in the page after the user clicks the "Generate Password" button.
 
-* In a file called `script.js`, create an event listener that utilizes the values (lowercase, uppercase, numbers, symbols) to generate the reccommended length and the new password.
+The project is built in Bootstrap 4 and javascript.
+
+### Functionality
+
+Before the password generator function is called, the user must meet the following criteria:
+
+- The character length is required, and must be between 8 and 128 digits.
+- Only one checkbox is required.
+When the "Generate Password" button is clicked, it calls a function that checks if the above criteria is met.
+
+If no checkboxes are selected, an alert box displays a warning message.
+
+If at least one checkbox is selected, another function will be called. This function creates a new string that holds the special characters that have been selected, then using this custom string, it generates a new password containing the number of characters specified by the user in the "character length" select field.
+
+Finally, it displays the new password on the page and it gives the user the option to copy it to the clipboard.
 
 
-
-Credits:
-
-Traversy Media
-
-
-Images:
-
-image/pwconsole.png
-
-image/pwcopied.png
